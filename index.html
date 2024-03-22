@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BINARY CAR|INTRO</title>
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav_container">
+            <a href="#" class="nav_logo">
+                <img src="./img/logo.png">
+            </a>
+            <div class="nav_menu">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="#" class="nav_link">Home</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#" class="nav_link">About</a>
+                    </li>
+                   
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+
+   <main class="main">
+        <section class="home_section" id="home">
+            <div class="home_container">
+                <div class="home_data"></div>
+                <h1 class="home_title">
+                    Choose The Best <span id="element"></span>
+                </h1>
+                <h2 class="home_subtitle">
+                    Porsche Mission E
+                </h2>
+
+                <h3 class="home_elec">
+                    <i class="ri-flashlight-line"></i> Electric Car
+                </h3>
+            </div>
+            <img src="./img/home.png" alt="" class="home_img">
+            <div class="home_car">
+                <div class="home_car_data">
+                    <div class="home_car_icon">
+                        <i class="ri-temp-hot-line"></i>
+                    </div>
+                    <h2 class="home_car_number">26°</h2>
+                    <h3 class="home_car_name">TEMPERATURE</h3>
+                </div>
+                <div class="home_car_data">
+                    <div class="home_car_icon">
+                        <i class="ri-dashboard-3-line"></i>
+                    </div>
+                    <h2 class="home_car_number">873</h2>
+                    <h3 class="home_car_name">MILEAGE</h3>
+                </div>
+                <div class="home_car_data">
+                    <div class="home_car_icon">
+                        <i class="ri-flashlight-fill"></i>
+                    </div>
+                    <h2 class="home_car_number">94%</h2>
+                    <h3 class="home_car_name">BATTERY</h3>
+                </div>
+            </div>
+                <a href="#" class="home_button">START</a>
+            </div>
+        </section>
+ 
+      <!-- Element to contain animated typing -->
+
+
+  <!-- Load library from the CDN -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['HatchBack Cars', 'Sedan Cars','SUVs Cars','Luxary Cars','Imported Cars'],
+      typeSpeed: 100,
+      backSpeed: 200,
+    backDelay: 500,
+    startDelay: 1000,
+    loop: true,
+    });
+  </script>
+</body>
+</body>
+</html>
