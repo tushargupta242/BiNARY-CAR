@@ -1690,3 +1690,256 @@ section h1 span{
     font-size: 1.6rem;
     font-weight: 600;
 }
+
+
+.inventory_8
+{
+    width: 100%;
+    min-height: 96vh;
+    background: url(./img/home/Inventory/imported/service.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.inventory_8 h2{
+    font-size: 3.5rem;
+    color: rgba(244, 248, 4, 0.933)
+
+}
+.inventory_8 .link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    color: var(--main-color);
+    padding-top: 2rem;
+}
+.inventory_8 .link a{
+    color: var(--main-color);
+    font-size: 1.5rem;
+}
+.inventory_8 .link a:hover{
+    color: var(--text-color-green);
+}
+.inventory_8 .link span,
+.inventory_8 .link p{
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+
+
+
+
+.services{
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.services .service_row{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+
+}
+.service_row .service_col{
+    box-shadow: 0 0 5px #d8d3d3;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    position: relative;
+    text-align: justify;
+}
+.service_row .service_col:hover{
+    transform: translateY(10px);
+}
+.service_row .service_col .image{
+    width: 100%;
+    height: 22rem;
+    border-radius: 10px;
+    position: relative;
+}
+.service_row .service_col .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    position: relative;
+}
+
+
+.service_row .service_col .image img.icon{
+    position: absolute;
+    bottom: -30px;
+    right: 30px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.service_row .service_col h3{
+    padding-top: 20px;
+    font-size: 18px;
+    color: var(--text-color);
+    padding-bottom: 10px;
+}
+.service_row .service_col p{
+    font-size: 14px;
+    color: var(--text-color-green);
+    padding-bottom: 20px;
+}
+
+.inventory_9
+{
+    width: 100%;
+    min-height: 96vh;
+    background: url(./img/home/Inventory/imported/service/contact.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.inventory_9 h2{
+    font-size: 3.5rem;
+    color: rgba(244, 248, 4, 0.933)
+
+}
+.inventory_9 .link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    color: var(--main-color);
+    padding-top: 2rem;
+}
+.inventory_9 .link a{
+    color: var(--main-color);
+    font-size: 1.5rem;
+}
+.inventory_9 .link a:hover{
+    color: var(--text-color-green);
+}
+.inventory_9 .link span,
+.inventory_9 .link p{
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.contact .contact_row{
+
+    padding: 4.5rem 12.5%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.contact_row .contact_col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: #fddddf;
+    padding: 30px;
+    border-radius: 8px;
+    transition: 0.5s ease;
+}
+.contact_row .contact_col:hover{
+    transform: translateY(-10px);
+}
+.contact_row .contact_col img{
+    
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.contact_row .contact_col h6{
+    padding: 6px 0;
+    font-size: 20px;
+    color: var(--main-color);
+}
+.contact_row .contact_col p{
+    font-size: 14px;
+    color: var(--text-color-green);
+}
+
+.contact_form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-right: 4rem;
+}
+.form_name
+{
+    margin-top: 2rem;
+    display: flex;
+}
+.form_name input{
+    border: 2px solid var(--main-color)
+}
+.contact_form input[type="text"]
+{
+    width: 45%;
+}
+.touch_col form{
+    background: var(--text-color-green);
+}
+.touch_col input,
+.touch_col textarea{
+    width: 95%;
+    padding: 4rem;
+    border: 2px solid var(--main-color);
+    margin: 0.7rem 1rem;
+}
+.btn
+{
+    padding: 1.8rem 2.8rem 1.8rem 2rem;
+    font-size: 1.7rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    transition: 0.5s ease;
+
+}
+.btn:hover{
+    background: var(--text-color);
+}
+
+.contact .touch_row{
+    padding: 4.5rem 12.5%;
+    display: flex;
+    gap: 20px;
+}
+.touch_row .touch_col img{
+    width: 100%;
+    height: 70vh;
+    border-radius: 20px 0% 15% 50%;
+}
+.touch_row .touch_col h5{
+    font-size: 27px;
+    color: var(--main-color);
+}
+.touch_col h5{
+    text-align: center;
+    margin-bottom: 2rem;
+}
