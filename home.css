@@ -253,7 +253,7 @@ nav .navbar ul li .drop_down li:hover a{
     display: flex;
 }
 
-.swiper-slide
+.home .slide
 {
     width: 100%;
     height: 110vh;
@@ -261,6 +261,331 @@ nav .navbar ul li .drop_down li:hover a{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    padding: 0 15rem;
+}
+.home .slide.slide_one
+{
+    
+    background: linear-gradient(to bottom, rgba(0,0,0,0.8) , rgba(0,0,0,0.8) , rgba(255,0,0)) , url(./img/home/bg-hero-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .slide.slide_two
+{
+    
+    background: linear-gradient(to bottom, rgba(0,0,0,0.8) , rgba(0,0,0,0.8) , rgba(235,235,37)) , url(./img/home/bg-hero-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .slide.slide_three
+{
+    
+    background: linear-gradient(to bottom, rgba(0,0,0,0.8) , rgba(0,0,0,0.8) , rgba(43,171,235)) , url(./img/home/bg-hero-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.home .slide .col_1{
+    flex: 1 1 20rem;
+}
+.home .slide .col_2
+{
+    flex: 1  1 40rem;
+    padding-top: 3rem;
+}
+.home .slide .col_1 h4
+{
+    font-size: 2.5rem;
+    color: var(--text-color-green);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-bottom: 3rem;
+}
+.home .slide .col_1 h1{
+    color: #fff;
+    font-size: 5.2rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.home .slide .col_1 span{
+    color: var(--main-color);
+}
+.home .slide .col_1 p{
+    color: #fff;
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    padding-top: 2rem;
+}
+.home .slide .col_2 img{
+    width: 100%;
+    height: 40rem;
+}
+.home .slide .col_1 .button
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding-top: 4rem;
+}
+.home .slide .col_1 .button button{
+    padding: 1.8rem 2.8rem 1.8rem 2rem;
+    font-size: 1.7rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    transition: 0.5s ease;
+}
+.home .slide .col_1 .button button i{
+    font-size: 2.5rem;
+    position: absolute;
+    top: 33%;
+    right: -1rem;
+    transform: translate(-40%);
+}
+.home .slide .col_1 .button button.about
+{
+    background: var(--main-color);
+    color: #fff;
+}
+.home .slide .col_1 .button button.about:hover
+{
+    background: var(--text-color);
+    color: #fff;
+}
+.search
+{
+    position: relative;
+    padding: 0 16rem;
+    background: #f7f2f2;
+}
+.search .find
+{
+    max-width: 1200px;
+    width: 100%;
+    padding: 2.5rem;
+    position: absolute;
+    top: -7rem;
+    z-index: 111;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(190, 190, 190, 0.5),
+                0 0 10px rgba(190, 190, 190, 0.5);
+    overflow: hidden;            
+}
+.find .find_row{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    gap: 5rem;
+}
+.find h3{
+    font-size: 2.7rem;
+    letter-spacing: 2px;
+    padding-bottom: 2rem;
+    font-weight: 500;
+    color: var(--text-color-green);
+
+}
+.find .find_row h4{
+    font-size: 1.7rem;
+    color: var(--text-color);
+    padding-bottom: 1.5rem;
+}
+.find .find_row select{
+    border: 1px solid #646161;
+    font-size: 1.5rem;
+    width: 200px;
+    font-weight: 500;
+    height: 45px;
+    padding: 0 1rem;
+    color: #646161;
+}
+.find .find_row select option{
+    padding: 0.5rem;
+    border-bottom: 1px solid #646161;
+}
+.search .search_btn button{
+    background: var(--main-color);
+    margin-top: 4rem;
+    padding: 1.3rem 2rem;
+    border-radius: 0.5rem;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: 0.5s ease;
+
+}
+.search .search_btn button i{
+    padding-right: 0.5rem;
+}
+.search .search_btn button:hover{
+   color: var(--text-color-green); 
+}
+
+
+
+
+section{
+    padding: 2.5rem 16rem;
+    background: #f7f2f2;
+}
+.market
+{
+    padding-top: 35rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+.market .col_3
+{
+    flex: 1 1 20rem;
+    position: relative;
+}
+.market .col_3 img.one{
+    
+    height: 45rem;
+}
+.market .col_4
+{
+    flex: 1 1 20rem;
+}
+.market .col_3 .service
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #141622;
+    padding: 1rem;
+    border-radius: 20px;
+}
+.market .col_3 .service span{
+    color: #fff;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.market .col_4 h4{
+    color: var(--main-color);
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-size: 500;
+    padding-bottom: 1rem ;
+}
+.market .col_4 h4 i{
+    padding-right: 0.5rem;
+}
+.market .col_4 h3{
+    font-size: 4rem;
+    color: var(--text-color-green);
+    padding-bottom: 2rem;
+    text-transform: capitalize;
+}
+.market .col_4 h3 span{
+    color: var(--main-color);
+}
+.market .col_4 p.text{
+    font-size: 1.4rem;
+    color: var(--text-color);
+    padding-bottom: 1rem;
+}
+.market .col_4 button{
+    position: relative;
+    margin-top: 2.5rem;
+    background: var(--main-color);
+    color: #fff;
+    padding: 1.5rem 3.5rem;
+    font-size: 1.6rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.market .col_4 button i{
+    position: absolute;
+    top: 20px;
+    font-size: 2rem;
+}
+.market .col_4 button:hover{
+    background: var(--text-color-green);
+}
+
+
+
+
+
+
+.counter
+{
+    width: 100%;
+    min-height: 50vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    background: url(./img/home/counter/counterbg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.counter .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+    text-align: center;
+}
+.counter .container img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #fff;
+    padding: 0.5rem;
+}
+.counter .container span.num{
+    padding: 1rem 0;
+    font-size: 4.6rem;
+    font-weight: 600;
+    color: #fff;
+}
+.counter .container span.text{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.counter .container span.text i{
+    padding-right: 0.5rem;
+}
+
+
+.arrivals
+{
+    text-align: center;
+    padding-top: 7rem;
+}
+.arrivals h4{
+    color: var(--main-color);
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding-bottom: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 2px;
 
 }
 
+.arrivals h4 i{
+    padding-right: 0.5rem;
+
+}
+.arrivals h1{
+    padding-bottom: 4rem;
+    font-size: 4.7rem;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: var(--text-color-green);
+}

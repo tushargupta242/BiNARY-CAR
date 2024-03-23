@@ -11,7 +11,7 @@
     rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 <body>
     <div class="top_header">
@@ -83,15 +83,15 @@
 
 
 <!---------------------------------------HOME SECTION STARTS ------------------------------------------------------------------------>
-    
+        <div class="home">
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
+                    <div class="swiper-slide slide slide_one">
                                         <div class="col_1">
                                                     <h4>WELCOME TO BINARY CAR</h4>
                                                     <h1>best way to find<br>
-                                                        <span id="element"></span><br>
-                                                        Car
+                                                        <span>Your Dream Car</span>
+                                            
                                                     </h1>
                                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, laborum.</p>
                                                 
@@ -101,14 +101,14 @@
                                         </div>
 
                                                             <div class="col_2">
-                                                                <img src="./img/home/hero-1-removebg-preview.png" alt="">
+                                                                <img src="./img/home/hero-1.png" alt="">
                                                             </div>
                      </div> 
-                     <div class="swiper-slide"><div class="col_1">
+                     <div class="swiper-slide slide slide_two"><div class="col_1">
                         <h4>WELCOME TO BINARY CAR</h4>
-                        <h1>best way to find<br>
-                            <span id="element"></span><br>
-                            Car
+                        <h1>Best Way to find<br>
+                            <span>Your Luxary Car</span><br>
+                            
                         </h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, laborum.</p>
                     
@@ -118,15 +118,14 @@
             </div>
 
                                 <div class="col_2">
-                                    <img src="./img/home/home4.jpeg" alt="">
+                                    <img src="./img/home/hero-2.png" alt="">
                                 </div>
                             </div>
 
-                                <div class="swiper-slide"><div class="col_1">
+                                <div class="swiper-slide slide slide_three"><div class="col_1">
                                     <h4>WELCOME TO BINARY CAR</h4>
-                                    <h1>best way to find<br>
-                                        <span id="element"></span><br>
-                                        Car
+                                    <h1>Best Way to find<br>
+                                        <span>Your Family Car</span><br>
                                     </h1>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, laborum.</p>
                                 
@@ -136,13 +135,13 @@
                         </div>
             
                                             <div class="col_2">
-                                                <img src="./img/home/home5.jpeg" alt="">
+                                                <img src="./img/home/hero-3.png" alt="">
                                             </div>
                             </div>
                             <div class="swiper-slide">
         
                                         <div class="col_2">
-                                            <img src="./img/home/home1.png" alt="">
+                                            <img src="./img/home/WEB-2-2.png" alt="">
                                         </div>
                         </div>
 
@@ -150,7 +149,7 @@
                                 
         
                                         <div class="col_2">
-                                            <img src="./img/home/home2.png" alt="">
+                                            <img src="./img/home/WEB-3.png" alt="">
                                         </div>
                         </div>
 
@@ -161,20 +160,358 @@
             <div class="swiper-button-prev"></div>
             <div class="swiper-pagination"></div>
         </div>
-   
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    </div>
 
-    <!-- Setup and start animation! -->
+
+
+    <!-- ------------------------------------------------------------------------END-------------------------------------------- -->
+
+    <div class="search">
+        <div class="find">
+            <h3>Let's Find Your Perfect Car</h3>
+            <div class="find_row">
+                <div class="find_item">
+                    <h4>Car Condition</h4>
+                    <select>
+                        <option value="">Any Condition</option>
+                        <option value="">New</option>
+                        <option value="">Used</option>
+                    </select>
+                </div>
+                <div class="find_item">
+                    <h4>Brand Name</h4>
+                    <select>
+                        <option value="">Any Brand</option>
+                        <option value="">BMW</option>
+                        <option value="">Ferrai</option>
+                        <option value="">Hyundai</option>
+                        <option value="">Nissan</option>
+                    </select>
+                </div>
+                <div class="find_item">
+                    <h4>Year</h4>
+                    <select>
+                        <option value="">2023</option>
+                        <option value="">2022</option>
+                        <option value="">2021</option>
+                        <option value="">2020</option>
+                        <option value="">2019</option>
+                    </select>
+                </div>
+                <div class="find_item">
+                    <h4>Price Range</h4>
+                    <select>
+                        <option value="">Any Price</option>
+                        <option value="">Above 1 Crore</option>
+                        <option value="">50 Lakhs - 1 Crore</option>
+                        <option value="">20 Lakhs - 50 Lakhs</option>
+                        <option value="">Under 20 Lakhs</option>
+                    </select>
+                </div>
+                <div class="find_item">
+                    <h4>Body Type</h4>
+                    <select>
+                        <option value="">Any Type</option>
+                        <option value="">Luxary</option>
+                        <option value="">Suv</option>
+                        <option value="">Sedan</option>
+                        <option value="">HatchBack</option>
+                    </select>
+                </div>
+                <div class="search_btn">
+                    <button><i class="bx bx-search"></i>Find Your Car</button>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+
+
+
+    <!-- ------------------------------------------------------------------------ -->
+    <section class="market">
+        <div class="col_3">
+            <img class="one" src="./img/home/market.png" alt="">
+            <div class="service">
+                <img class="two" src="./img/home/marketquality.JPG" alt="">
+                <span>15 years of <br> quality service</span>
+            </div>
+        </div>
+        <div class="col_4">
+            <h4><i class='bx bx-car'></i>About Us</h4>
+            <h3>World Largest <span>Car <br> Dealer</span> Marketplace.</h3>
+            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni tempore iusto distinctio molestiae et similique quisquam incidunt? Repudiandae, quod ad.</p>
+            
+            <button>Discover More<i class="bx bx-right-arrow-alt"></i></button>
+        </div>
+    </section>
+
+
+
+    <!-- ------------------------------------------------------------------------ -->
+    <div class="counter">
+        <div class="container">
+            <img src="./img/home/counter/1.JPG" alt="">
+            <span class="num" data-value="500">0000</span>
+            <span class="text"><i class="bx bx-plus"></i>Available Cars</span>
+        </div>
+
+        <div class="container">
+            <img src="./img/home/counter/2.JPG" alt="">
+            <span class="num" data-value="900">0000</span>
+            <span class="text"><i class="bx bx-plus"></i>Happy Clients</span>
+        </div>
+
+        <div class="container">
+            <img src="./img/home/counter/3.JPG" alt="">
+            <span class="num" data-value="500">0000</span>
+            <span class="text"><i class="bx bx-plus"></i>Team Workers</span>
+        </div>
+
+        <div class="container">
+            <img src="./img/home/counter/4.JPG" alt="">
+            <span class="num" data-value="15">0000</span>
+            <span class="text"><i class="bx bx-plus"></i>Years Of Experience</span>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- ====================================================== -->
+    <section class="arrivals">
+        <h4><i class="bx bx-car"></i>New Arrivals</h4>
+        <h1>Let's Check Latest<span> Cars</span></h1>
+        <div class="arr_row">
+            <div class="arr_col">
+                <div class="image">
+                    <img src="./img/home/arrivals/1.png" alt="">
+                </div>
+                <h5>Mrecedes Benz</h5>
+                    <div class="rating">
+                        <div class="stars">
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star-half' ></i>
+                        </div>
+                        <div class="review">
+                            <span>5.0 (5.8 5k Review)</span>
+                        </div>
+                    </div>
+                    <div class="features">
+                        <span><i class="bx bx-error-circle"></i>Automatic</span>
+                        <span><i class="bx bx-label"></i>10.15km</span>
+                        <span><i class="bx bx-car"></i>Model 2023</span>
+                        <span><i class="bx bx-target-lock"></i>Hybrid</span>
+                    </div>
+                    <div class="price">
+                        <p>$45,628</p>
+                        <button>Details</button>
+                    </div>
+                
+            </div>
+
+
+            <div class="arr_col">
+                <div class="image">
+                    <img src="./img/home/arrivals/2.png" alt="">
+                </div>
+                <h5>Mrecedes Benz</h5>
+                    <div class="rating">
+                        <div class="stars">
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star-half' ></i>
+                        </div>
+                        <div class="review">
+                            <span>5.0 (5.8 5k Review)</span>
+                        </div>
+                    </div>
+                    <div class="features">
+                        <span><i class="bx bx-error-circle"></i>Automatic</span>
+                        <span><i class="bx bx-label"></i>10.15km</span>
+                        <span><i class="bx bx-car"></i>Model 2023</span>
+                        <span><i class="bx bx-target-lock"></i>Hybrid</span>
+                    </div>
+                    <div class="price">
+                        <p>$45,628</p>
+                        <button>Details</button>
+                    </div>
+                
+            </div>
+
+
+
+            <div class="arr_col">
+                <div class="image">
+                    <img src="./img/home/arrivals/3.png" alt="">
+                </div>
+                <h5>Mrecedes Benz</h5>
+                    <div class="rating">
+                        <div class="stars">
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star-half' ></i>
+                        </div>
+                        <div class="review">
+                            <span>5.0 (5.8 5k Review)</span>
+                        </div>
+                    </div>
+                    <div class="features">
+                        <span><i class="bx bx-error-circle"></i>Automatic</span>
+                        <span><i class="bx bx-label"></i>10.15km</span>
+                        <span><i class="bx bx-car"></i>Model 2023</span>
+                        <span><i class="bx bx-target-lock"></i>Hybrid</span>
+                    </div>
+                    <div class="price">
+                        <p>$45,628</p>
+                        <button>Details</button>
+                    </div>
+                
+            </div>
+
+
+
+
+            <div class="arr_col">
+                <div class="image">
+                    <img src="./img/home/arrivals/4.png" alt="">
+                </div>
+                <h5>Mrecedes Benz</h5>
+                    <div class="rating">
+                        <div class="stars">
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star-half' ></i>
+                        </div>
+                        <div class="review">
+                            <span>5.0 (5.8 5k Review)</span>
+                        </div>
+                    </div>
+                    <div class="features">
+                        <span><i class="bx bx-error-circle"></i>Automatic</span>
+                        <span><i class="bx bx-label"></i>10.15km</span>
+                        <span><i class="bx bx-car"></i>Model 2023</span>
+                        <span><i class="bx bx-target-lock"></i>Hybrid</span>
+                    </div>
+                    <div class="price">
+                        <p>$45,628</p>
+                        <button>Details</button>
+                    </div>
+                
+            </div>
+
+
+
+
+
+            <div class="arr_col">
+                <div class="image">
+                    <img src="./img/home/arrivals/5.png" alt="">
+                </div>
+                <h5>Mrecedes Benz</h5>
+                    <div class="rating">
+                        <div class="stars">
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star-half' ></i>
+                        </div>
+                        <div class="review">
+                            <span>5.0 (5.8 5k Review)</span>
+                        </div>
+                    </div>
+                    <div class="features">
+                        <span><i class="bx bx-error-circle"></i>Automatic</span>
+                        <span><i class="bx bx-label"></i>10.15km</span>
+                        <span><i class="bx bx-car"></i>Model 2023</span>
+                        <span><i class="bx bx-target-lock"></i>Hybrid</span>
+                    </div>
+                    <div class="price">
+                        <p>$45,628</p>
+                        <button>Details</button>
+                    </div>
+                
+            </div>
+
+
+
+
+
+            <div class="arr_col">
+                <div class="image">
+                    <img src="./img/home/arrivals/6.png" alt="">
+                </div>
+                <h5>Mrecedes Benz</h5>
+                    <div class="rating">
+                        <div class="stars">
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star-half' ></i>
+                        </div>
+                        <div class="review">
+                            <span>5.0 (5.8 5k Review)</span>
+                        </div>
+                    </div>
+                    <div class="features">
+                        <span><i class="bx bx-error-circle"></i>Automatic</span>
+                        <span><i class="bx bx-label"></i>10.15km</span>
+                        <span><i class="bx bx-car"></i>Model 2023</span>
+                        <span><i class="bx bx-target-lock"></i>Hybrid</span>
+                    </div>
+                    <div class="price">
+                        <p>$45,628</p>
+                        <button>Details</button>
+                    </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    Setup and start animation!
     <script>
-      var typed = new Typed('#element', {
-        strings: ['Your Dream', 'Your Super-Luxary','Your Family'],
-        typeSpeed: 100,
+      var typed = new Typed('#element_1', {
+        strings: ['Your Dream Car'],
+        typeSpeed: 10,
         backSpeed: 200,
       backDelay: 500,
       startDelay: 1000,
       loop: true,
       });
-    </script>
+    // </script>
+    // <script>
+    //     var typed = new Typed('#element_2', {
+    //       strings: ['Your LUXARY Car'],
+    //       typeSpeed: 100,
+    //       backSpeed: 200,
+    //     backDelay: 500,
+    //     startDelay: 1000,
+    //     loop: true,
+    //     });
+    //   </script>
+    //   <script>
+    //     var typed = new Typed('#element_1', {
+    //       strings: ['Your FAMILY Car'],
+    //       typeSpeed: 100,
+    //       backSpeed: 200,
+    //     backDelay: 500,
+    //     startDelay: 1000,
+    //     loop: true,
+    //     });
+    //   </script> -->
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
@@ -186,6 +523,7 @@
     autoplay: {
       delay: 2500,
       disableOnInteraction: false,
+      loop:true,
     },
     pagination: {
       el: ".swiper-pagination",
@@ -197,5 +535,6 @@
     },
   });
 </script>
+<script src="app.js"></script>
 </body>
 </html>
